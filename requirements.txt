@@ -1,0 +1,68 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Google Drive integration
+google-api-python-client==2.110.0
+google-auth==2.24.0
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+
+# Document processing
+python-docx==1.1.0
+PyPDF2==3.0.1
+openpyxl==3.1.2
+
+# AI/ML and NLP
+openai==1.3.7
+langchain==0.0.340
+langchain-openai==0.0.2
+transformers==4.36.0
+torch==2.1.1
+spacy==3.7.2
+nltk==3.8.1
+scikit-learn==1.3.2
+
+# Data processing
+pandas==2.1.4
+numpy==1.25.2
+python-dateutil==2.8.2
+
+# Database
+sqlalchemy==2.0.23
+sqlite3
+
+# Web framework and frontend
+jinja2==3.1.2
+aiofiles==23.2.1
+
+# Scheduling
+APScheduler==3.10.4
+celery==5.3.4
+
+# Notifications
+pymsteams==0.2.2
+smtplib
+email-validator==2.1.0
+
+# Configuration and environment
+python-dotenv==1.0.0
+pyyaml==6.0.1
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2
+
+# Development tools
+black==23.11.0
+flake8==6.1.0
+mypy==1.7.1
+
+# File watching for development
+watchdog==3.0.0
